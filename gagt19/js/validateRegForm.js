@@ -34,6 +34,7 @@ $(function () {
     }
     document.getElementById('registration-status').innerHTML = "Sending...";
     document.getElementById('registration-form').submit();
+    document.getElementById('registration-form').setAttribute('action', '//formspree.io/' + 'gagt2019' + '@' + 'gmail' + '.' + 'com');
     //
     // if ((document.cform.name.value != "") && (filter.test(email.value)) && (document.cform.message.value != "")) {
     //     //hide the form

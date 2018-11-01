@@ -284,7 +284,9 @@
 
             <div class="row">
               <div class="col-md-12 mb-md-0 mb-5 registration-form">
-                <form id="registration-form" name="registration-form" action="https://formspree.io/gagt2019@gmail.com" method="POST">
+                <form id="registratioxn-form" name="registration-form" action="https://formspree.io/gagt2019@gmail.com" method="POST">
+                  <input type="hidden" name="_subject" value="Registration"/>
+                  <input type="text" name="_gotcha" style="display:none"/>
                   <div class="row">
                     <div class="col-md-6">
                       <div class="form-check mb-3 form-check-inline">
@@ -366,9 +368,10 @@
           <div class="col-lg-8 mx-auto">
             <h2>Funding for young researchers</h2>
             <p>We have some limited funding available for graduate students or postdocs.
-            If you are interested in attending the conference and would like to apply for funding, please send us an <a href="">Email</a> at gagt2019.funding@gmail.com with the following infomation:
+            If you are interested in attending the conference and would like to apply for funding, please fill out the form below and attach a current cv.
+            <!-- please send us an <a href="">Email</a> at gagt2019.funding@gmail.com with the following infomation: -->
             </p>
-            <ul>
+            <!-- <ul>
               <li>First name</li>
               <li>Last name</li>
               <li>Affiliation</li>
@@ -377,20 +380,21 @@
               <li>Homepage</li>
               <li>Interests in conference</li>
               <li>CV</li>
-            </ul>
+            </ul> -->
 
             <p>Deadline for applications is <span style="font-weight: bold">?? December 2018</span>.
             We will then evaluate all applications and inform you about the decisions in the beginning of 2019.
             </p>
 
-            <div class="text-center text-md-left registration-btn">
+            <!-- <div class="text-center text-md-left registration-btn">
               <a class="btn btn-primary SendFundEmail">Email template</a>
-            </div>
+            </div> -->
 
-            <!-- <div class="row">
+            <div class="row">
               <div class="col-md-12 mb-md-0 mb-8 registration-form">
                 <form id="funding-form" name="funding-form" action="https://formspree.io/gagt2019.funding@gmail.com" method="POST">
-
+                  <input type="hidden" name="_subject" value="Funding"/>
+                  <input type="text" name="_gotcha" style="display:none"/>
                   <div class="row">
                     <div class="col-md-6">
                       <div class="form-check mb-3 form-check-inline">
@@ -472,17 +476,14 @@
                          <textarea type="text" id="funding-comment" name="funding-comment" rows="1" class="form-control md-textarea" placeholder="Comments"></textarea>
                        </div>
                     </div>
-                 </div> -->
-                 <!-- <div class="text-center text-md-left">
-                   <button class="btn btn-primary" type="submit">Send</button>
-                 </div> -->
-                <!-- </form>  -->
+                 </div>
+                </form>
 
-                <!-- <div class="text-center text-md-left registration-btn">
-                  <a class="btn btn-primary validateFundForm" onclick="">Send</a>
+                <div class="text-center text-md-left registration-btn">
+                  <a class="btn btn-primary validateFundForm">Send</a>
                 </div>
-                <div id="funding-status"></div> -->
-              <!-- </div> -->
+                <div id="funding-status"></div>
+              </div>
             </div>
           </div>
         </div>
