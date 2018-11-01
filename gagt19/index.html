@@ -17,6 +17,10 @@
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 
+    <!-- formspree file upload -->
+    <script>UPLOADCARE_PUBLIC_KEY = "demopublickey";</script>
+    <script src="https://ucarecdn.com/libs/widget/2.10.2/uploadcare.full.min.js" charset="utf-8"></script>
+
   </head>
 
   <body id="page-top">
@@ -284,7 +288,7 @@
 
             <div class="row">
               <div class="col-md-12 mb-md-0 mb-5 registration-form">
-                <form id="registratioxn-form" name="registration-form" action="https://formspree.io/gagt2019@gmail.com" method="POST">
+                <form id="registratioxn-form" name="registration-form" method="POST">
                   <input type="hidden" name="_subject" value="Registration"/>
                   <input type="text" name="_gotcha" style="display:none"/>
                   <div class="row">
@@ -352,7 +356,7 @@
                  </div>
                 </form>
                 <div class="text-center text-md-left registration-btn">
-                  <a class="btn btn-primary validateRegForm">Send</a>
+                  <a class="btn btn-primary validateRegForm">Send registration</a>
                 </div>
                 <div id="registration-status"></div>
               </div>
@@ -368,7 +372,7 @@
           <div class="col-lg-8 mx-auto">
             <h2>Funding for young researchers</h2>
             <p>We have some limited funding available for graduate students or postdocs.
-            If you are interested in attending the conference and would like to apply for funding, please fill out the form below and attach a current cv.
+            If you are interested in attending the conference and would like to apply for funding, please fill out the form below and attach a current CV.
             <!-- please send us an <a href="">Email</a> at gagt2019.funding@gmail.com with the following infomation: -->
             </p>
             <!-- <ul>
@@ -465,22 +469,26 @@
                  <div class="row">
                    <div class="col-md-12">
                      <div class="md-form">
-                       <textarea type="text" id="funding-cv" name="funding-cv" rows="3" class="form-control md-textarea" placeholder="Please copy CV here"></textarea>
+                       <label>Upload CV:</label>
+                       <div>
+                         <input type="hidden" role="uploadcare-uploader" name="funding-cv"/>
+                       </div>
+                       <!-- <textarea type="text" id="funding-cv" name="funding-cv" rows="3" class="form-control md-textarea" placeholder="Please copy CV here"></textarea> -->
                      </div>
                    </div>
                  </div>
 
-                 <div class="row">
+                 <!-- <div class="row">
                    <div class="col-md-12">
                       <div class="md-form">
                          <textarea type="text" id="funding-comment" name="funding-comment" rows="1" class="form-control md-textarea" placeholder="Comments"></textarea>
                        </div>
                     </div>
-                 </div>
+                 </div> -->
                 </form>
 
                 <div class="text-center text-md-left registration-btn">
-                  <a class="btn btn-primary validateFundForm">Send</a>
+                  <a class="btn btn-primary validateFundForm">Send application</a>
                 </div>
                 <div id="funding-status"></div>
               </div>
