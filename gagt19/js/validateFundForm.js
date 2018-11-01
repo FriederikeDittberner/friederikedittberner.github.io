@@ -43,7 +43,7 @@ $(function () {
     //     return false;
     // }
     document.getElementById('funding-status').innerHTML = "Sending...";
-    document.getElementById('registration-form').setAttribute('action', 'https://formspree.io/' + 'gagt.funding2019' + '@' + 'gmail' + '.' + 'com');
+    document.getElementById('registration-form').setAttribute('action', 'https://formspree.io/' + 'gagt2019.funding' + '@' + 'gmail' + '.' + 'com');
     document.getElementById('funding-form').submit();
   });
 });
