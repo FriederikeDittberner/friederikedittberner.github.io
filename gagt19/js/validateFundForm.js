@@ -44,32 +44,5 @@ $(function () {
     // }
     document.getElementById('funding-status').innerHTML = "Sending...";
     document.getElementById('funding-form').submit();
-    // formData = {
-    //     'salut'     : $('input:radio[name=salut]:checked').val(),
-    //     'firstname'     : $('input[name=firstname]').val(),
-    //     'lastname'     : $('input[name=lastname]').val(),
-    //     'affiliation'     : $('input[name=affiliation]').val(),
-    //     'position'     : $('input[name=position]').val(),
-    //     'email'    : $('input[name=email]').val(),
-    //     'homepage'     : $('input[name=homepage]').val(),
-    //     'cv'     : $('textarea[name=cv]').val(),
-    //     'comment'  : $('textarea[name=comment]').val(),
-    // };
-    //
-    // $.ajax({
-    //   url : "funding-mail.php",
-    //   type: "POST",
-    //   data : formData,
-    //   success: function(data, textStatus, jqXHR)
-    //   {
-    //       $('#status').text(data);
-    //       if (data.code) //If mail was sent successfully, reset the form.
-    //       $('#contact-form').closest('form').find("input[type=text], textarea").val("");
-    //   },
-    //   error: function (jqXHR, textStatus, errorThrown)
-    //   {
-    //       $('#status').text(jqXHR);
-    //   }
-    // });
   });
 });
