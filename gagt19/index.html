@@ -262,8 +262,9 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h2>Registration</h2>
-            Please fill out the registration form below.
-            Registration is free but compulsory.
+            <p>Please fill out the registration form below.
+              Registration is free but compulsory.
+            </p>
             <!-- Please send us an <a href="SendRegEmail" class="SendRegEmail">Email</a> at gagt2019@gmail.com with the following infomation:
             </p>
             <ul>
@@ -285,7 +286,7 @@
             <div class="row">
               <div class="col-md-12 mb-md-0 mb-5 registration-form">
                 <form id="registratioxn-form" name="registration-form" action="https://formspree.io/gagt2019@gmail.com" method="POST">
-                  <input type="hidden" name="_subject" value="Registration"/>
+                  <!-- <input type="hidden" name="_subject" value="Registration"/> -->
                   <input type="text" name="_gotcha" style="display:none"/>
                   <div class="row">
                     <div class="col-md-6">
@@ -312,12 +313,12 @@
                  <div class="row">
                    <div class="col-md-6">
                      <div class="md-form mb-0">
-                       <input type="text" id="registration-firstname" name="registration-firstname" class="form-control" placeholder="First name">
+                       <input type="text" id="registration-firstname" name="registration-firstname" class="form-control" placeholder="First name*">
                      </div>
                    </div>
                    <div class="col-md-6">
                      <div class="md-form mb-0">
-                       <input type="text" id="registration-lastname" name="registration-lastname" class="form-control" placeholder="Last name">
+                       <input type="text" id="registration-lastname" name="registration-lastname" class="form-control" placeholder="Last name*">
                      </div>
                    </div>
                  </div>
@@ -325,12 +326,12 @@
                  <div class="row">
                    <div class="col-md-6">
                      <div class="md-form mb-0">
-                       <input type="text" id="registration-affiliation" name="registration-affiliation" class="form-control" placeholder="Affiliation">
+                       <input type="text" id="registration-affiliation" name="registration-affiliation" class="form-control" placeholder="Affiliation*">
                      </div>
                    </div>
                    <div class="col-md-6">
                      <div class="md-form mb-0">
-                       <input type="text" id="registration-position" name="registration-position" class="form-control" placeholder="Position">
+                       <input type="text" id="registration-position" name="registration-position" class="form-control" placeholder="Position*">
                      </div>
                    </div>
                  </div>
@@ -338,7 +339,7 @@
                  <div class="row">
                    <div class="col-md-12">
                      <div class="md-form mb-0">
-                       <input type="text" id="registration-email" name="registration-email" class="form-control" placeholder="Email">
+                       <input type="text" id="registration-email" name="registration-email" class="form-control" placeholder="Email*">
                      </div>
                    </div>
                  </div>
@@ -351,6 +352,9 @@
                     </div>
                  </div>
                 </form>
+                <p class="small">
+                  *Mandatory information.
+                </p>
                 <div class="text-center text-md-left registration-btn">
                   <a class="btn btn-primary validateRegForm">Send registration</a>
                 </div>
@@ -393,7 +397,7 @@
             <div class="row">
               <div class="col-md-12 mb-md-0 mb-8 registration-form">
                 <form id="funding-form" name="funding-form" action="https://formspree.io/gagt2019.funding@gmail.com" method="POST">
-                  <input type="hidden" name="_subject" value="Funding"/>
+                  <!-- <input type="hidden" name="_subject" value="Funding"/> -->
                   <input type="text" name="_gotcha" style="display:none"/>
                   <div class="row">
                     <div class="col-md-6">
@@ -415,12 +419,12 @@
                  <div class="row">
                    <div class="col-md-6">
                      <div class="md-form mb-0">
-                       <input type="text" id="funding-firstname" name="funding-firstname" class="form-control" placeholder="First name">
+                       <input type="text" id="funding-firstname" name="funding-firstname" class="form-control" placeholder="First name*">
                      </div>
                    </div>
                    <div class="col-md-6">
                      <div class="md-form mb-0">
-                       <input type="text" id="funding-lastname" name="funding-lastname" class="form-control" placeholder="Last name">
+                       <input type="text" id="funding-lastname" name="funding-lastname" class="form-control" placeholder="Last name*">
                      </div>
                    </div>
                  </div>
@@ -428,12 +432,12 @@
                  <div class="row">
                    <div class="col-md-6">
                      <div class="md-form mb-0">
-                       <input type="text" id="funding-affiliation" name="funding-affiliation" class="form-control" placeholder="Affiliation">
+                       <input type="text" id="funding-affiliation" name="funding-affiliation" class="form-control" placeholder="Affiliation*">
                      </div>
                    </div>
                    <div class="col-md-6">
                      <div class="md-form mb-0">
-                       <input type="text" id="funding-position" name="funding-position" class="form-control" placeholder="Graduate student / postdoc">
+                       <input type="text" id="funding-position" name="funding-position" class="form-control" placeholder="Graduate student / postdoc*">
                      </div>
                    </div>
                  </div>
@@ -441,7 +445,7 @@
                  <div class="row">
                    <div class="col-md-12">
                      <div class="md-form mb-0">
-                       <input type="text" id="funding-email" name="funding-email" class="form-control" placeholder="Email">
+                       <input type="text" id="funding-email" name="funding-email" class="form-control" placeholder="Email*">
                      </div>
                    </div>
                  </div>
@@ -449,7 +453,7 @@
                  <div class="row">
                    <div class="col-md-12">
                      <div class="md-form mb-0">
-                       <input type="text" id="funding-homepage" name="funding-homepage" class="form-control" placeholder="Homepage">
+                       <input type="text" id="funding-homepage" name="funding-homepage" class="form-control" placeholder="Homepage*">
                      </div>
                    </div>
                  </div>
@@ -457,7 +461,7 @@
                  <div class="row">
                    <div class="col-md-12">
                      <div class="md-form mb-0">
-                       <textarea type="text" id="funding-interests" name="funding-interests" rows="2" class="form-control md-textarea" placeholder="Interests in conference"></textarea>
+                       <textarea type="text" id="funding-interests" name="funding-interests" rows="2" class="form-control md-textarea" placeholder="Interests in conference*"></textarea>
                      </div>
                    </div>
                  </div>
@@ -465,7 +469,7 @@
                  <div class="row">
                    <div class="col-md-12">
                      <div class="md-form">
-                       <label>Upload CV:</label>
+                       <label>Upload CV*:</label>
                        <div>
                          <input type="hidden" role="uploadcare-uploader" name="funding-cv"/>
                        </div>
@@ -482,7 +486,9 @@
                     </div>
                  </div> -->
                 </form>
-
+                <p class="small">
+                  *Mandatory information.
+                </p>
                 <div class="text-center text-md-left registration-btn">
                   <a class="btn btn-primary validateFundForm">Send application</a>
                 </div>
