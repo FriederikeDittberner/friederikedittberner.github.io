@@ -37,11 +37,11 @@ $(function () {
         document.getElementById('funding-status').innerHTML = "<span style='color:red'> Homepage cannot be empty </span>";
         return false;
     }
-    var cv =  document.getElementById('funding-cv').value;
-    if (cv == "") {
-        document.getElementById('funding-status').innerHTML = "<span style='color:red'> CV cannot be empty </span>";
-        return false;
-    }
+    // var cv =  document.getElementById('funding-cv').value;
+    // if (cv == "") {
+    //     document.getElementById('funding-status').innerHTML = "<span style='color:red'> CV cannot be empty </span>";
+    //     return false;
+    // }
     document.getElementById('funding-status').innerHTML = "Sending...";
     document.getElementById('funding-form').submit();
     // formData = {
