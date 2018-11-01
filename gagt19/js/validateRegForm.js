@@ -33,7 +33,7 @@ $(function () {
         }
     }
     document.getElementById('registration-status').innerHTML = "Sending...";
-    document.getElementById('registration-form').setAttribute('action', 'https://formspree.io/' + 'gagt2019' + '@' + 'gmail' + '.' + 'com');
+    // document.getElementById('registration-form').setAttribute('action', 'https://formspree.io/' + 'gagt2019' + '@' + 'gmail' + '.' + 'com');
     document.getElementById('registration-form').submit();
     //
     // if ((document.cform.name.value != "") && (filter.test(email.value)) && (document.cform.message.value != "")) {

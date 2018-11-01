@@ -179,7 +179,7 @@ margin: -10px 0 -10px 0;
     padding-bottom: 5px;
 }
 
-.registration-form .row, .registration-btn {
+.registration-form .row {
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -190,8 +190,14 @@ margin: -10px 0 -10px 0;
 
 .registration-btn
 {
+    padding-top: 20px;
     /* background-color: #000155; */
     color: white;
+}
+
+.upload-btn {
+  padding-left: 10px;
+  background-color: blue;
 }
 
 /* =============================================================================
